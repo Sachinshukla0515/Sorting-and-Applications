@@ -41,10 +41,23 @@
                i++,j++;
             }
        }// end of while
-       
-       while(i<n) res.push_back(arr1[i++]);
-       while(j<m) res.push_back(arr2[j++]);
-    
-      return res;
+      
+         while(i<n){
+            if(arr1[i]!=arr1[i-1]) res.push_back(arr1[i++]);
+         }
+        
+         while(j<m){
+            if(arr2[j]!=arr2[j-1]) res.push_back(arr2[j++]);
+         }
+        return res;
     }// end of fuction
+
+
+// 2. find the intersection of two sorted arrays
+//problem statement : givien two sorted arrays find the intersection and return the resultant vector
+
+// code begins: 
+// fucntion to implement intersection of two sorted arrays
+
+   vector<int>
 
