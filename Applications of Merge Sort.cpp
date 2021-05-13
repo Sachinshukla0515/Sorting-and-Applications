@@ -106,7 +106,7 @@
        }  // end of mergeSort Function
    
    // fucntion to merge to array and return the sorted one
-   void merge(int arr[], int l, int m, int r){
+   int merge(int arr[], int l, int m, int r){
           int n1=m+1-l;
           int n2=r-m;
           int left[n1],right[n2];
