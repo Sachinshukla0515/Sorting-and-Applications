@@ -22,7 +22,7 @@
           int n2=r-m;
           int left[n1],right[n2];
           
-          for(int i=0;i<n1;i++) left[i]=arr[j+i];
+          for(int i=0;i<n1;i++) left[i]=arr[l+i];
           for(int i=0;i<n2;i++) right[i]=arr[m+1+i];
           
           int i=0,j=0,k=l;
